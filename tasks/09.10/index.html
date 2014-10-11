@@ -117,8 +117,8 @@
                         <input id="email" type="email" required placeholder="Enter your email..">
                     </li>
                     <li>
-                        <label for="password" required>Password</label>
-                        <input id="password" type="password" required placeholder="8 characters minimum.."/>
+                        <label for="password" required>Password (digits only)</label>
+                        <input id="password" type="password" pattern="[a-zA-Z0-9]{8,20}" required placeholder="8-20 characters.."/>
                     </li>
                     <li>
                         <label for="password-conf">Confirm your password</label>
