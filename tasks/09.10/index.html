@@ -10,6 +10,9 @@
             fieldset input{
                 display: block;
             }
+            .income{
+                display: inline;
+            }
        </style>
     </head>
     <body>
@@ -157,6 +160,23 @@
                 <legend>Please, leave some comments here</legend>
                   <form action="textarea1.php" method="post">
                     <p><textarea name="feedback" cols="150" rows="5" maxlength=500 placeholder="Leave your comments here.."></textarea></p>
+                    <label for="getmail">Do you want to get latest news?</label>
+                    <input type="checkbox" id="getmail"/>
+                    <label for="eval">What do you tink of this site?</label>
+                    <input type="text" list="eval" />
+                        <datalist id="eval">
+                            <option value="awesom"></option>
+                            <option value="good"></option>
+                            <option value="normal"></option>
+                            <option value="not bad"></option>
+                            <option value="bad"></option>
+                        </datalist>
+                    </input>
+                    <label>Your month income:</label>
+                    <input type="radio" class="income" name="inc" value="small"/>less $ 500
+                    <input type="radio" class="income" name="inc" value="aver"/>$ 500-1000
+                    <input type="radio" class="income" name="inc" value="good"/>$ 1000-3000
+                    <input type="radio" class="income" name="inc" value="great"/>more $ 5000
                     <p><input type="submit" value="Submit"></p>
                   </form>                
             </fieldset><br>            
