@@ -30,3 +30,24 @@
     html5doctor.com
     caniuse.com
     nativeformelements.com
+    <ul>
+        <li><a href="http://html5doctor.com/">HTML5 Doctor</a></li>
+        <li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a></li>
+        <li><a href="http://codepen.io/">CodePen</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/">Mozilla Developer Network</a></li>
+        <li><a href="http://caniuse.com/">Can I Use?</a></li>
+        <li><a href="http://coding.smashingmagazine.com/2011/08/16/html5-and-the-document-outlining-algorithm/">HTML5 And The Document Outlining Algorithm</a></li>
+        <li><a href="http://www.fontspring.com/blog/the-new-bulletproof-font-face-syntax">The New Bulletproof @Font-Face Syntax</a></li>
+        <li><a href="http://gsnedders.html5.org/outliner/">HTML5 Outliner</a></li>
+        <li><a href="https://chrome.google.com/webstore/detail/html5-outliner/afoibpobokebhgfnknfndkgemglggomo">HTML5 Outliner Chrome Extension</a></li>
+        <li><a href="http://demo.agektmr.com/datalist/">Datalist Experiment</a></li>
+        <li><a href="http://codepen.io/bphillips201/details/JygKB">Box-Shadow Demonstration</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition-timing-function">transition-timing-function - MDN</a></li>
+        <li><a href="https://github.com/ai/autoprefixer">Autoprefixer</a></li>
+        <li><a href="http://kapeli.com/dash">Dash</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">JavaScript Regular Expressions - MDN</a></li>
+        <li><a href="https://github.com/codeschool/FrontEndFormationsBlog">Art Gallery Blog Source</a></li>
+    </ul>
+
+#4/09.10
+    http://learn.shayhowe.com/(from codeschool.com)

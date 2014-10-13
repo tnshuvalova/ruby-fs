@@ -7,6 +7,9 @@
             body{
                 font-family: Verdana, sans-serif;
             }
+            h1{
+                text-shadow: 1  px 2px 2px red;
+            }
             ol{
                 list-style: none;
             }
@@ -23,26 +26,28 @@
                 border-radius: 50%;
                 box-shadow: 3px 3px 13px #000;
             }
+            input[type=submit] {
+                box-shadow: inset 0 1px 0 #ce6a67;
+            }
+
        </style>
     </head>
     <body>
         <header id="dummy-header">
             <h1>Dummy project welcomes you!!!</h1>
         </header>
-        <section id="navbar">
-            <nav>
-                <a href="#about">About</a>
-                <a href="#faq">FAQ</a>
-                <a href="#contacts">Contacts</a>
-                <a href="#register">Register</a>
-            </nav>
-        </section>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#register">Register</a>
+        </nav>
         <section id="about">
             <header>
                 <h2>About</h2>
             </header>
             <aside>
-                <img src="http://www.html-5-tutorial.com/images/atitlan.jpg" />
+                <img src="http://www.html-5-tutorial.com/images/atitlan.jpg"  alt="pic1" />
             </aside>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eadem nunc mea adversum te oratio est. Quis hoc dicit? Duo Reges: constructio interrete. Quos quidem tibi studiose et diligenter tractandos magnopere censeo. Audax negotium, dicerem impudens, nisi hoc institutum postea translatum ad philosophos nostros esset. Quae duo sunt, unum facit. </p>
             <p>Suo genere perveniant ad extremum; Nos paucis ad haec additis finem faciamus aliquando; Nam, ut sint illa vendibiliora, haec uberiora certe sunt. Qui ita affectus, beatum esse numquam probabis; </p>
@@ -95,7 +100,7 @@
             </header>
                 <fieldset id="contacts-info">
                     <legend>My contacts</legend>
-                    Send me email: <a href="mailto:tshuvalova@cogniance.com?body=Please send me any questions!">tshuvalova@cogniance.com</a><br>
+                    Send me email: <a href="mailto:tshuvalova@cogniance.com">tshuvalova@cogniance.com</a><br>
                     Find me on social resources:
                     <ol id="external-links">
                         <li>
@@ -112,7 +117,7 @@
                         </li>
                     </ol>
                     <label for="red">Just push the red button:</label>
-                    <input type="button" id="red"/>
+                    <input type="button" id="red" value="submit"/>
                 </fieldset>
         </section>
         <section id="register">
@@ -125,15 +130,15 @@
                 <ol>
                     <li>
                         <label for="name">Name</label>
-                        <input id="name" name="name "type="text" required placeholder="Enter here your name.." />
+                        <input id="name" name="name" type="text" required placeholder="Enter here your name.." />
                     </li>
                     <li>
                         <label for="email">Email</label>
                         <input id="email" type="email" required placeholder="Enter your email..">
                     </li>
                     <li>
-                        <label for="password" required>Password (digits only)</label>
-                        <input id="password" type="password" pattern="[a-zA-Z0-9]{8,20}" required placeholder="8-20 characters.."/>
+                        <label for="password">Password (digits only)</label>
+                        <input id="password" required type="password" pattern="[a-zA-Z0-9]{8,20}"  placeholder="8-20 characters.."/>
                     </li>
                     <li>
                         <label for="password-conf">Confirm your password</label>
@@ -151,7 +156,7 @@
                         <input type="tel" id="tel" placeholder="Enter here your telephone.." />
                     <li>
                         <label for="date">Payment date</label>
-                        <input type="date" id="date" value="10/10/2014" />
+                        <input type="date" id="date"/>
                     </li>
                     <li>
                           <label for="color">Select your favorite color</label>
@@ -169,21 +174,21 @@
                 <h2>Feedback</h2>
             </header>
             <fieldset>
+
                 <legend>Please, leave some comments here</legend>
                   <form action="textarea1.php" method="post">
                     <p><textarea name="feedback" cols="150" rows="5" maxlength=500 placeholder="Leave your comments here.."></textarea></p>
                     <label for="getmail">Do you want to get latest news?</label>
                     <input type="checkbox" id="getmail"/>
-                    <label for="eval">What do you tink of this site?</label>
+                    <label>What do you tink of this site?</label>
                     <input type="text" list="eval" />
                         <datalist id="eval">
-                            <option value="awesom"></option>
-                            <option value="good"></option>
-                            <option value="normal"></option>
-                            <option value="not bad"></option>
-                            <option value="bad"></option>
+                            <option value="awesom">Awesom</option>
+                            <option value="good">Good</option>
+                            <option value="normal">Normal</option>
+                            <option value="not bad">Not bad</option>
+                            <option value="bad">Bad</option>
                         </datalist>
-                    </input>
                     <label>Your month income:</label>
                     <input type="radio" class="income" name="inc" value="small"/>less $ 500
                     <input type="radio" class="income" name="inc" value="aver"/>$ 500-1000
