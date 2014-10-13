@@ -153,3 +153,29 @@ textarea[name=feedback]{
     box-shadow:  5px 5px 30px 5px green;
     transform: rotate(-20deg);   
 }
+
+.magic-rules{
+    opacity: 0.5;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 12px;
+    background: url(/home/tshuvalova/projects/ruby-fs/tasks/09.10/images/three-bg.jpg) top left no-repeat;
+}
+
+#shapes:after{
+    content: "These shapes are really crazy and they can move;)";
+    font-weight: bold;
+    font-style: oblique;
+    background-color: #d8768f;
+    opacity: 0.6;
+
+}
+
+.cs1:hover:before{
+    content: "You hovered first crazy shape";
+}
+
+.cs5:hover:before{
+    content: "☎☎☎☎☎\A☎☎☎☎☎\A☎☎☎☎☎\A☎☎☎☎☎\A☎☎☎☎☎";
+}
