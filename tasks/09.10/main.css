@@ -4,8 +4,15 @@ body{
     color: #dddddd;
     opacity: 0.93;
 }
+h1:first-letter{
+    color: #024539;
+}
+p:first-line{
+    text-decoration: overline;
+}
 a:hover{
     color: rgba(249, 202, 216, 0.8);
+    font-weight: bold;
 }
 a{
     color: rgba(255, 115, 115, 1);
@@ -14,6 +21,9 @@ a{
 nav{
     color: #649987;
     text-decoration: underline;
+}
+nav a{
+    color: #b49191;
 }
 h1{
     text-shadow: 1  px 2px 2px red;
