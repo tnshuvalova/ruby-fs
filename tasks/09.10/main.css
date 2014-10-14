@@ -40,7 +40,7 @@ nav a{
     color: #b49191;
 }
 h1{
-    text-shadow: 1  px 2px 2px red;
+    text-shadow: 1px 2px 2px red;
 }
 h1, h2, h3{
     color: #fff;
@@ -157,7 +157,7 @@ textarea[name=feedback]{
     box-shadow: inset -5px -5px 10px 0px #333,
         10px 10px 5px 0px #33CCFF;
     transition-property: all;
-    transition-delay: 0;
+    transition-delay: 0.2s;
     transition-timing-function: ease;
     transition-duration: 1s;
 }
