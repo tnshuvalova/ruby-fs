@@ -1,0 +1,3 @@
+def attribute(a)
+
+end

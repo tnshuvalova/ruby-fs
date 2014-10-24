@@ -49,5 +49,25 @@
         <li><a href="https://github.com/codeschool/FrontEndFormationsBlog">Art Gallery Blog Source</a></li>
     </ul>
 
+    <ul>
+        <li><p><a href="http://www.impressivewebs.com/javascript-string-methods-reference/">Useful Methods for Strings</a></p></li>
+        <li><p><a href="http://www.javascriptkit.com/jsref/escapesequence.shtml">Special Characters and Escape Sequences</a></p></li>
+        <li><p><a href="http://appcropolis.com/blog/web-technology/organize-html-css-javascript-files/">File Organization with HTML, CSS, and JavaScript Files</a></p></li>
+        <li><p><a href="http://eloquentjavascript.net/">Eloquent Javascript</a></p></li>
+        <li><p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Mozilla Development Network Javascript</a></p></li>
+        <li><p><a href="http://jsfiddle.net/">JSFiddle</a></p></li>
+        <li><p><a href="http://dailyjs.com/">DailyJS</a></p></li>
+    </ul>
+
 #4/09.10
     http://learn.shayhowe.com/(from codeschool.com)
+
+#codeschool/rubyTV
+    <ul>
+        <li> <a href="http://www.codeschool.com/courses/ruby-bits-part-2">Ruby Bits Part 2</a></li>
+        <li> <a href="http://www.codeschool.com/code_tv/pry">Pry CodeTV</a></li>
+        <li> <a href="http://www.codeschool.com/code_tv/creating-ruby-gems">Creating Ruby Gems CodeTV</a></li>
+        <li> <a href="http://www.codeschool.com/code_tv/thor">Thor CodeTV</a></li>
+        <li> <a href="http://www.codeschool.com/code_tv/rvm">RVM CodeTV</a></li>
+        <li> <a href="http://www.codeschool.com/code_tv/special-character-methods">Special Character Methods CodeTV</a></li>
+    </ul>
