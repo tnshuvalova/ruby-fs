@@ -228,7 +228,7 @@ end
 
 class MetaStudent
   def initialize knowledge
-    require knowledge
+    require "/home/tshuvalova/projects/ruby-fs/classes/16.10/knowledge.rb"
   end
   def ponder koan
     begin
